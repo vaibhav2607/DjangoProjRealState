@@ -142,13 +142,6 @@ MESSAGE_TAG = {
 
 }
 
-# Email Config
-
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'vaiana1426@gmail.com'
-EMAIL_HOST_PASSWORD = 'kwqcrlkomwqddvbl'
-EMAIL_USE_TLS = True
 
 try:
     from .local_settings import *
